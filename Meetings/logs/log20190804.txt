@@ -1,0 +1,1092 @@
+2019-08-04 17:21:19.888 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-04 17:21:22.089 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 17:21:22.126 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 17:21:22.938 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-08-04 17:21:22.938 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-08-04 17:21:22.974 +03:00 [INF] Request finished in 36.6939ms 200 
+2019-08-04 17:21:23.014 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 17:21:23.041 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-08-04 17:21:23.054 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-08-04 17:21:23.064 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.5339ms.
+2019-08-04 17:21:23.110 +03:00 [INF] Executing ViewResult, running view Index.
+2019-08-04 17:21:24.557 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/main-client.js?v=Ox8kBy7KcDn7-BWoA3xDvOnVVXHI_lfCzLJR23nbxDk  
+2019-08-04 17:21:24.557 +03:00 [INF] Executed ViewResult - view Index executed in 1447.0705ms.
+2019-08-04 17:21:24.561 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/vendor.js?v=AVmzkbEhZAeA4yhwV7_opHw1evsA6VHuYtuu0awmyF4  
+2019-08-04 17:21:24.562 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/vendor.css?v=f-quCl14D-DPeasviVSwrLusD7NUpgjDT84aVGn-XjY  
+2019-08-04 17:21:24.575 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 1531.0993ms
+2019-08-04 17:21:24.583 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 17:21:24.644 +03:00 [INF] Request finished in 1707.2986ms 200 text/html; charset=utf-8
+2019-08-04 17:21:24.660 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/vendor.css?v=f-quCl14D-DPeasviVSwrLusD7NUpgjDT84aVGn-XjY
+2019-08-04 17:21:24.662 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/main-client.js?v=Ox8kBy7KcDn7-BWoA3xDvOnVVXHI_lfCzLJR23nbxDk
+2019-08-04 17:21:24.664 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/vendor.js?v=AVmzkbEhZAeA4yhwV7_opHw1evsA6VHuYtuu0awmyF4
+2019-08-04 17:21:26.361 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-08-04 17:21:27.358 +03:00 [INF] webpack built 5a248897ec4e8eb3fa02 in 5027ms
+2019-08-04 17:21:27.377 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Hash: 5a248897ec4e8eb3fa02
+Version: webpack 4.32.2
+Time: 5027ms
+Built at: 2019-08-04 5:21:27 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  3.77 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-08-04 17:21:27.379 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Compiled successfully.
+2019-08-04 17:21:27.428 +03:00 [INF] Sending file. Request path: '/dist/vendor.css'. Physical path: 'C:\Projects\Meetings\Meetings\wwwroot\dist\vendor.css'
+2019-08-04 17:21:27.437 +03:00 [INF] Request finished in 2870.3135ms 200 text/css
+2019-08-04 17:21:27.458 +03:00 [INF] Request finished in 2903.2469ms 200 application/javascript; charset=UTF-8
+2019-08-04 17:21:27.488 +03:00 [INF] Sending file. Request path: '/dist/vendor.js'. Physical path: 'C:\Projects\Meetings\Meetings\wwwroot\dist\vendor.js'
+2019-08-04 17:21:27.493 +03:00 [INF] Request finished in 2930.9363ms 200 application/javascript
+2019-08-04 17:21:27.891 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/__webpack_hmr  
+2019-08-04 17:21:27.908 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/favicon.ico  
+2019-08-04 17:21:27.917 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Projects\Meetings\Meetings\wwwroot\favicon.ico'
+2019-08-04 17:21:27.920 +03:00 [INF] Request finished in 13.0045ms 200 image/x-icon
+2019-08-04 17:21:41.565 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:64091/api/Account/Login application/json;charset=UTF-8 32
+2019-08-04 17:21:41.571 +03:00 [INF] Executing endpoint 'Meetings.Controllers.AccountController.Login (Meetings)'
+2019-08-04 17:21:41.587 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Meetings.Models.LoginModel) on controller Meetings.Controllers.AccountController (Meetings).
+2019-08-04 17:21:41.623 +03:00 [INF] Executing action method Meetings.Controllers.AccountController.Login (Meetings) - Validation state: "Valid"
+2019-08-04 17:21:41.628 +03:00 [INF] Executed action method Meetings.Controllers.AccountController.Login (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2.3234ms.
+2019-08-04 17:21:41.631 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[Meetings.Models.ServiceUser, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-08-04 17:21:41.637 +03:00 [INF] Executed action Meetings.Controllers.AccountController.Login (Meetings) in 47.3778ms
+2019-08-04 17:21:41.639 +03:00 [INF] Executed endpoint 'Meetings.Controllers.AccountController.Login (Meetings)'
+2019-08-04 17:21:41.642 +03:00 [INF] Request finished in 77.0789ms 200 application/json; charset=utf-8
+2019-08-04 17:21:45.588 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Person/Search?term=  
+2019-08-04 17:21:45.596 +03:00 [INF] Executing endpoint 'Meetings.Controllers.PersonController.Search (Meetings)'
+2019-08-04 17:21:45.603 +03:00 [INF] Route matched with {action = "Search", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.PersonController (Meetings).
+2019-08-04 17:21:45.613 +03:00 [INF] Executing action method Meetings.Controllers.PersonController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 17:21:50.743 +03:00 [INF] Executed action method Meetings.Controllers.PersonController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 5123.6746ms.
+2019-08-04 17:21:50.746 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.PersonModel, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:21:50.755 +03:00 [INF] Executed action Meetings.Controllers.PersonController.Search (Meetings) in 5149.6839ms
+2019-08-04 17:21:50.758 +03:00 [INF] Executed endpoint 'Meetings.Controllers.PersonController.Search (Meetings)'
+2019-08-04 17:21:50.761 +03:00 [INF] Request finished in 5173.6915ms 200 application/json; charset=utf-8
+2019-08-04 17:21:53.095 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Arrangement/Search?term=  
+2019-08-04 17:21:53.097 +03:00 [INF] Executing endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:21:53.100 +03:00 [INF] Route matched with {action = "Search", controller = "Arrangement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.ArrangementController (Meetings).
+2019-08-04 17:21:53.104 +03:00 [INF] Executing action method Meetings.Controllers.ArrangementController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 17:22:08.769 +03:00 [INF] Executed action method Meetings.Controllers.ArrangementController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 15662.7708ms.
+2019-08-04 17:22:08.771 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.Arrangement, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:22:13.509 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Arrangement/Search?term=  
+2019-08-04 17:22:13.514 +03:00 [INF] Executing endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:22:13.516 +03:00 [INF] Route matched with {action = "Search", controller = "Arrangement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.ArrangementController (Meetings).
+2019-08-04 17:22:13.519 +03:00 [INF] Executing action method Meetings.Controllers.ArrangementController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 17:22:15.468 +03:00 [INF] Executed action Meetings.Controllers.ArrangementController.Search (Meetings) in 20419.528000000002ms
+2019-08-04 17:22:16.538 +03:00 [INF] Executed endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:22:16.542 +03:00 [INF] Executed action method Meetings.Controllers.ArrangementController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 3018.0950000000003ms.
+2019-08-04 17:22:16.546 +03:00 [INF] Request finished in 23446.3768ms 200 application/json; charset=utf-8
+2019-08-04 17:22:16.550 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.Arrangement, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:22:16.553 +03:00 [INF] Executed action Meetings.Controllers.ArrangementController.Search (Meetings) in 3033.6005ms
+2019-08-04 17:22:16.558 +03:00 [INF] Executed endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:22:16.562 +03:00 [INF] Request finished in 3052.6629ms 200 application/json; charset=utf-8
+2019-08-04 17:23:12.783 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-08-04 17:23:12.785 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 17:23:12.788 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-08-04 17:23:12.794 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-08-04 17:23:12.802 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6.4711000000000007ms.
+2019-08-04 17:23:12.810 +03:00 [INF] Executing ViewResult, running view Index.
+2019-08-04 17:23:13.717 +03:00 [INF] Executed ViewResult - view Index executed in 910.84350000000006ms.
+2019-08-04 17:23:13.720 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 928.62930000000006ms
+2019-08-04 17:23:13.722 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 17:23:13.724 +03:00 [INF] Request finished in 940.5513ms 200 text/html; charset=utf-8
+2019-08-04 17:23:13.732 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/main-client.js?v=Ox8kBy7KcDn7-BWoA3xDvOnVVXHI_lfCzLJR23nbxDk  
+2019-08-04 17:23:13.757 +03:00 [INF] Request finished in 24.1437ms 200 application/javascript; charset=UTF-8
+2019-08-04 17:23:14.161 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/__webpack_hmr  
+2019-08-04 17:23:14.175 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/favicon.ico  
+2019-08-04 17:23:14.181 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Projects\Meetings\Meetings\wwwroot\favicon.ico'
+2019-08-04 17:23:14.183 +03:00 [INF] Request finished in 10.2874ms 200 image/x-icon
+2019-08-04 17:23:14.207 +03:00 [INF] Request finished in 106308.9712ms 200 text/event-stream; charset=utf-8
+2019-08-04 17:24:09.954 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/vendor.js.map  
+2019-08-04 17:24:09.957 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/main-client.js.map  
+2019-08-04 17:24:09.969 +03:00 [INF] Request finished in 12.309ms 200 application/json; charset=UTF-8
+2019-08-04 17:24:09.981 +03:00 [INF] Sending file. Request path: '/dist/vendor.js.map'. Physical path: 'C:\Projects\Meetings\Meetings\wwwroot\dist\vendor.js.map'
+2019-08-04 17:24:09.983 +03:00 [INF] Request finished in 29.1709ms 200 text/plain
+2019-08-04 17:24:10.438 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/vendor.css.map  
+2019-08-04 17:24:10.456 +03:00 [INF] Sending file. Request path: '/dist/vendor.css.map'. Physical path: 'C:\Projects\Meetings\Meetings\wwwroot\dist\vendor.css.map'
+2019-08-04 17:24:10.459 +03:00 [INF] Request finished in 21.037ms 200 text/plain
+2019-08-04 17:24:38.786 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Person/Search?term=  
+2019-08-04 17:24:38.792 +03:00 [INF] Executing endpoint 'Meetings.Controllers.PersonController.Search (Meetings)'
+2019-08-04 17:24:38.795 +03:00 [INF] Route matched with {action = "Search", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.PersonController (Meetings).
+2019-08-04 17:24:38.798 +03:00 [INF] Executing action method Meetings.Controllers.PersonController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 17:24:41.252 +03:00 [INF] Executed action method Meetings.Controllers.PersonController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2451.0051000000003ms.
+2019-08-04 17:24:41.255 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.PersonModel, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:24:41.261 +03:00 [INF] Executed action Meetings.Controllers.PersonController.Search (Meetings) in 2460.9066000000003ms
+2019-08-04 17:24:41.268 +03:00 [INF] Executed endpoint 'Meetings.Controllers.PersonController.Search (Meetings)'
+2019-08-04 17:24:41.271 +03:00 [INF] Request finished in 2485.4563ms 200 application/json; charset=utf-8
+2019-08-04 17:25:04.484 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Arrangement/Search?term=  
+2019-08-04 17:25:04.486 +03:00 [INF] Executing endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:25:04.488 +03:00 [INF] Route matched with {action = "Search", controller = "Arrangement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.ArrangementController (Meetings).
+2019-08-04 17:25:04.490 +03:00 [INF] Executing action method Meetings.Controllers.ArrangementController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 17:25:07.885 +03:00 [INF] Executed action method Meetings.Controllers.ArrangementController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 3389.3981000000003ms.
+2019-08-04 17:25:07.889 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.Arrangement, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:25:07.893 +03:00 [INF] Executed action Meetings.Controllers.ArrangementController.Search (Meetings) in 3400.8536000000004ms
+2019-08-04 17:25:07.897 +03:00 [INF] Executed endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:25:07.904 +03:00 [INF] Request finished in 3416.167ms 200 application/json; charset=utf-8
+2019-08-04 17:25:07.906 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Arrangement/Search?term=  
+2019-08-04 17:25:07.909 +03:00 [INF] Executing endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:25:07.911 +03:00 [INF] Route matched with {action = "Search", controller = "Arrangement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.ArrangementController (Meetings).
+2019-08-04 17:25:07.913 +03:00 [INF] Executing action method Meetings.Controllers.ArrangementController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 17:25:09.547 +03:00 [INF] Executed action method Meetings.Controllers.ArrangementController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1625.507ms.
+2019-08-04 17:25:09.550 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.Arrangement, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:25:09.553 +03:00 [INF] Executed action Meetings.Controllers.ArrangementController.Search (Meetings) in 1639.8091000000002ms
+2019-08-04 17:25:09.560 +03:00 [INF] Executed endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:25:09.563 +03:00 [INF] Request finished in 1662.2001ms 200 application/json; charset=utf-8
+2019-08-04 17:36:43.053 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-04 17:36:44.670 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 17:36:44.720 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 17:36:45.576 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-08-04 17:36:45.576 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-08-04 17:36:45.596 +03:00 [INF] Request finished in 23.5191ms 200 
+2019-08-04 17:36:45.641 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 17:36:45.658 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-08-04 17:36:45.669 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-08-04 17:36:45.680 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.5085ms.
+2019-08-04 17:36:45.703 +03:00 [INF] Executing ViewResult, running view Index.
+2019-08-04 17:36:46.589 +03:00 [INF] Executed ViewResult - view Index executed in 899.07210000000009ms.
+2019-08-04 17:36:46.597 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 937.6802ms
+2019-08-04 17:36:46.600 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 17:36:46.603 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/main-client.js?v=Ox8kBy7KcDn7-BWoA3xDvOnVVXHI_lfCzLJR23nbxDk  
+2019-08-04 17:36:46.615 +03:00 [INF] Request finished in 1043.001ms 200 text/html; charset=utf-8
+2019-08-04 17:36:46.722 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/main-client.js?v=Ox8kBy7KcDn7-BWoA3xDvOnVVXHI_lfCzLJR23nbxDk
+2019-08-04 17:36:48.636 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-08-04 17:36:49.687 +03:00 [INF] webpack built e853c4614d3f5ff165f1 in 4731ms
+2019-08-04 17:36:49.697 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Hash: e853c4614d3f5ff165f1
+Version: webpack 4.32.2
+Time: 4731ms
+Built at: 2019-08-04 5:36:49 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  3.77 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-08-04 17:36:49.700 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Compiled successfully.
+2019-08-04 17:36:49.760 +03:00 [INF] Request finished in 3153.027ms 200 application/javascript; charset=UTF-8
+2019-08-04 17:36:50.078 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/__webpack_hmr  
+2019-08-04 17:36:53.657 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Arrangement/Search?term=  
+2019-08-04 17:36:53.662 +03:00 [INF] Executing endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:36:53.676 +03:00 [INF] Route matched with {action = "Search", controller = "Arrangement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.ArrangementController (Meetings).
+2019-08-04 17:36:53.689 +03:00 [INF] Executing action method Meetings.Controllers.ArrangementController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 17:36:56.267 +03:00 [INF] Executed action method Meetings.Controllers.ArrangementController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2573.6609000000003ms.
+2019-08-04 17:36:56.278 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.Arrangement, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:36:56.297 +03:00 [INF] Executed action Meetings.Controllers.ArrangementController.Search (Meetings) in 2617.2867ms
+2019-08-04 17:36:56.299 +03:00 [INF] Executed endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:36:56.304 +03:00 [INF] Request finished in 2643.876ms 200 application/json; charset=utf-8
+2019-08-04 17:38:59.428 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Person/Search?term=  
+2019-08-04 17:38:59.436 +03:00 [INF] Executing endpoint 'Meetings.Controllers.PersonController.Search (Meetings)'
+2019-08-04 17:38:59.448 +03:00 [INF] Route matched with {action = "Search", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.PersonController (Meetings).
+2019-08-04 17:38:59.451 +03:00 [INF] Executing action method Meetings.Controllers.PersonController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 17:39:01.904 +03:00 [INF] Executed action method Meetings.Controllers.PersonController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2449.9208000000003ms.
+2019-08-04 17:39:01.907 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.PersonModel, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:39:01.916 +03:00 [INF] Executed action Meetings.Controllers.PersonController.Search (Meetings) in 2464.13ms
+2019-08-04 17:39:01.918 +03:00 [INF] Executed endpoint 'Meetings.Controllers.PersonController.Search (Meetings)'
+2019-08-04 17:39:01.921 +03:00 [INF] Request finished in 2494.6565ms 200 application/json; charset=utf-8
+2019-08-04 17:47:48.644 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-04 17:47:50.279 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 17:47:50.316 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 17:47:51.116 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-08-04 17:47:51.116 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-08-04 17:47:51.138 +03:00 [INF] Request finished in 25.1627ms 200 
+2019-08-04 17:47:51.184 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 17:47:51.202 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-08-04 17:47:51.214 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-08-04 17:47:51.224 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.5424ms.
+2019-08-04 17:47:51.247 +03:00 [INF] Executing ViewResult, running view Index.
+2019-08-04 17:47:52.423 +03:00 [INF] Executed ViewResult - view Index executed in 1189.5509ms.
+2019-08-04 17:47:52.432 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 1228.5087ms
+2019-08-04 17:47:52.439 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/main-client.js?v=SFUo_xXke5gWdPA2cHHDeiA-De_NeA7E2kV_47NU908  
+2019-08-04 17:47:52.439 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 17:47:52.460 +03:00 [INF] Request finished in 1344.8842ms 200 text/html; charset=utf-8
+2019-08-04 17:47:52.651 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/main-client.js?v=SFUo_xXke5gWdPA2cHHDeiA-De_NeA7E2kV_47NU908
+2019-08-04 17:47:54.244 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-08-04 17:47:55.201 +03:00 [INF] webpack built 27df6830a185deb611fe in 4648ms
+2019-08-04 17:47:55.212 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Hash: 27df6830a185deb611fe
+Version: webpack 4.32.2
+Time: 4648ms
+Built at: 2019-08-04 5:47:55 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  3.77 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-08-04 17:47:55.216 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Compiled successfully.
+2019-08-04 17:47:55.249 +03:00 [INF] Request finished in 2813.4964ms 200 application/javascript; charset=UTF-8
+2019-08-04 17:47:55.550 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/__webpack_hmr  
+2019-08-04 17:47:59.618 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Person/Search?term=  
+2019-08-04 17:47:59.629 +03:00 [INF] Executing endpoint 'Meetings.Controllers.PersonController.Search (Meetings)'
+2019-08-04 17:47:59.646 +03:00 [INF] Route matched with {action = "Search", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.PersonController (Meetings).
+2019-08-04 17:47:59.668 +03:00 [INF] Executing action method Meetings.Controllers.PersonController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 17:47:59.671 +03:00 [INF] Executed action method Meetings.Controllers.PersonController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.9265ms.
+2019-08-04 17:47:59.676 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.PersonModel, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:47:59.684 +03:00 [INF] Executed action Meetings.Controllers.PersonController.Search (Meetings) in 35.7539ms
+2019-08-04 17:47:59.686 +03:00 [INF] Executed endpoint 'Meetings.Controllers.PersonController.Search (Meetings)'
+2019-08-04 17:47:59.688 +03:00 [INF] Request finished in 71.8459ms 200 application/json; charset=utf-8
+2019-08-04 17:48:11.079 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:64091/api/Person/Add application/json;charset=UTF-8 45
+2019-08-04 17:48:11.085 +03:00 [INF] Executing endpoint 'Meetings.Controllers.PersonController.Add (Meetings)'
+2019-08-04 17:48:11.089 +03:00 [INF] Route matched with {action = "Add", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(Meetings.Models.PersonModel) on controller Meetings.Controllers.PersonController (Meetings).
+2019-08-04 17:48:11.112 +03:00 [INF] Executing action method Meetings.Controllers.PersonController.Add (Meetings) - Validation state: "Valid"
+2019-08-04 17:48:11.116 +03:00 [INF] Executed action method Meetings.Controllers.PersonController.Add (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2.3927ms.
+2019-08-04 17:48:11.118 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:48:11.121 +03:00 [INF] Executed action Meetings.Controllers.PersonController.Add (Meetings) in 30.0275ms
+2019-08-04 17:48:11.122 +03:00 [INF] Executed endpoint 'Meetings.Controllers.PersonController.Add (Meetings)'
+2019-08-04 17:48:11.124 +03:00 [INF] Request finished in 45.1338ms 200 application/json; charset=utf-8
+2019-08-04 17:48:17.577 +03:00 [INF] Request starting HTTP/1.1 PATCH http://localhost:64091/api/Person/8 application/json;charset=UTF-8 46
+2019-08-04 17:48:17.579 +03:00 [INF] Executing endpoint 'Meetings.Controllers.PersonController.Update (Meetings)'
+2019-08-04 17:48:17.582 +03:00 [INF] Route matched with {action = "Update", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(Meetings.Models.PersonModel) on controller Meetings.Controllers.PersonController (Meetings).
+2019-08-04 17:48:17.584 +03:00 [INF] Executing action method Meetings.Controllers.PersonController.Update (Meetings) - Validation state: "Valid"
+2019-08-04 17:48:17.588 +03:00 [INF] Executed action method Meetings.Controllers.PersonController.Update (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1.6685ms.
+2019-08-04 17:48:17.590 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result'.
+2019-08-04 17:48:17.593 +03:00 [INF] Executed action Meetings.Controllers.PersonController.Update (Meetings) in 8.6282ms
+2019-08-04 17:48:17.594 +03:00 [INF] Executed endpoint 'Meetings.Controllers.PersonController.Update (Meetings)'
+2019-08-04 17:48:17.596 +03:00 [INF] Request finished in 19.928ms 200 application/json; charset=utf-8
+2019-08-04 17:48:19.920 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Arrangement/Search?term=  
+2019-08-04 17:48:19.922 +03:00 [INF] Executing endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:48:19.926 +03:00 [INF] Route matched with {action = "Search", controller = "Arrangement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.ArrangementController (Meetings).
+2019-08-04 17:48:19.929 +03:00 [INF] Executing action method Meetings.Controllers.ArrangementController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 17:48:26.836 +03:00 [INF] Executed action method Meetings.Controllers.ArrangementController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 6902.3753000000006ms.
+2019-08-04 17:48:26.844 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.Arrangement, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:48:26.854 +03:00 [INF] Executed action Meetings.Controllers.ArrangementController.Search (Meetings) in 6925.9050000000007ms
+2019-08-04 17:48:26.857 +03:00 [INF] Executed endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:48:26.860 +03:00 [INF] Request finished in 6939.545ms 200 application/json; charset=utf-8
+2019-08-04 17:48:50.536 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/arrangement?id=0&caption=Summer+end  
+2019-08-04 17:48:50.538 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 17:48:50.540 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-08-04 17:48:50.542 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-08-04 17:48:50.543 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.12290000000000001ms.
+2019-08-04 17:48:50.546 +03:00 [INF] Executing ViewResult, running view Index.
+2019-08-04 17:48:51.086 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Arrangement/Search?term=  
+2019-08-04 17:48:51.092 +03:00 [INF] Executing endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:48:51.095 +03:00 [INF] Route matched with {action = "Search", controller = "Arrangement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.ArrangementController (Meetings).
+2019-08-04 17:48:51.098 +03:00 [INF] Executing action method Meetings.Controllers.ArrangementController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 17:48:51.102 +03:00 [INF] Executed action method Meetings.Controllers.ArrangementController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.0075000000000000006ms.
+2019-08-04 17:48:51.106 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.Arrangement, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:48:51.109 +03:00 [INF] Executed action Meetings.Controllers.ArrangementController.Search (Meetings) in 10.939300000000001ms
+2019-08-04 17:48:51.113 +03:00 [INF] Executed endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:48:51.115 +03:00 [INF] Request finished in 31.4283ms 200 application/json; charset=utf-8
+2019-08-04 17:48:51.140 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Arrangement/Search?term=  
+2019-08-04 17:48:51.142 +03:00 [INF] Executing endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:48:51.143 +03:00 [INF] Route matched with {action = "Search", controller = "Arrangement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.ArrangementController (Meetings).
+2019-08-04 17:48:51.145 +03:00 [INF] Executing action method Meetings.Controllers.ArrangementController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 17:48:51.147 +03:00 [INF] Executed action method Meetings.Controllers.ArrangementController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.0062000000000000006ms.
+2019-08-04 17:48:51.148 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.Arrangement, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:48:51.150 +03:00 [INF] Executed action Meetings.Controllers.ArrangementController.Search (Meetings) in 5.2352ms
+2019-08-04 17:48:51.152 +03:00 [INF] Executed endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:48:51.154 +03:00 [INF] Request finished in 13.3877ms 200 application/json; charset=utf-8
+2019-08-04 17:48:51.506 +03:00 [INF] Executed ViewResult - view Index executed in 960.4113000000001ms.
+2019-08-04 17:48:51.508 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 966.5044ms
+2019-08-04 17:48:51.510 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 17:48:51.513 +03:00 [INF] Request finished in 976.7863ms 200 text/html; charset=utf-8
+2019-08-04 17:48:51.520 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/main-client.js?v=dYZrVynekQ5dfR1DdKJvncqbHnomAmOcc-Aaj9TWUW4  
+2019-08-04 17:48:51.548 +03:00 [INF] Request finished in 28.1102ms 200 application/javascript; charset=UTF-8
+2019-08-04 17:48:51.910 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/__webpack_hmr  
+2019-08-04 17:48:51.952 +03:00 [INF] Request finished in 56401.9644ms 200 text/event-stream; charset=utf-8
+2019-08-04 17:48:55.821 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Person/Search?term=  
+2019-08-04 17:48:55.824 +03:00 [INF] Executing endpoint 'Meetings.Controllers.PersonController.Search (Meetings)'
+2019-08-04 17:48:55.826 +03:00 [INF] Route matched with {action = "Search", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.PersonController (Meetings).
+2019-08-04 17:48:55.829 +03:00 [INF] Executing action method Meetings.Controllers.PersonController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 17:48:55.831 +03:00 [INF] Executed action method Meetings.Controllers.PersonController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.004ms.
+2019-08-04 17:48:55.834 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.PersonModel, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:48:55.837 +03:00 [INF] Executed action Meetings.Controllers.PersonController.Search (Meetings) in 7.6218ms
+2019-08-04 17:48:55.840 +03:00 [INF] Executed endpoint 'Meetings.Controllers.PersonController.Search (Meetings)'
+2019-08-04 17:48:55.842 +03:00 [INF] Request finished in 20.65ms 200 application/json; charset=utf-8
+2019-08-04 17:49:03.155 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Arrangement/Search?term=  
+2019-08-04 17:49:03.157 +03:00 [INF] Executing endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:49:03.159 +03:00 [INF] Route matched with {action = "Search", controller = "Arrangement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.ArrangementController (Meetings).
+2019-08-04 17:49:03.160 +03:00 [INF] Executing action method Meetings.Controllers.ArrangementController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 17:49:03.162 +03:00 [INF] Executed action method Meetings.Controllers.ArrangementController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.0043ms.
+2019-08-04 17:49:03.164 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.Arrangement, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:49:03.167 +03:00 [INF] Executed action Meetings.Controllers.ArrangementController.Search (Meetings) in 5.7883000000000004ms
+2019-08-04 17:49:03.168 +03:00 [INF] Executed endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 17:49:03.170 +03:00 [INF] Request finished in 14.9339ms 200 application/json; charset=utf-8
+2019-08-04 17:49:47.929 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/main-client.js.map  
+2019-08-04 17:49:47.933 +03:00 [INF] Request finished in 4.9688ms 200 application/json; charset=UTF-8
+2019-08-04 17:50:00.038 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:64091/api/Arrangement/Add application/json;charset=UTF-8 31
+2019-08-04 17:50:00.040 +03:00 [INF] Executing endpoint 'Meetings.Controllers.ArrangementController.Add (Meetings)'
+2019-08-04 17:50:00.048 +03:00 [INF] Route matched with {action = "Add", controller = "Arrangement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(Meetings.Models.Arrangement) on controller Meetings.Controllers.ArrangementController (Meetings).
+2019-08-04 17:50:00.063 +03:00 [INF] Executing action method Meetings.Controllers.ArrangementController.Add (Meetings) - Validation state: "Valid"
+2019-08-04 17:50:00.067 +03:00 [INF] Executed action method Meetings.Controllers.ArrangementController.Add (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1.584ms.
+2019-08-04 17:50:00.068 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:50:00.070 +03:00 [INF] Executed action Meetings.Controllers.ArrangementController.Add (Meetings) in 20.451ms
+2019-08-04 17:50:00.072 +03:00 [INF] Executed endpoint 'Meetings.Controllers.ArrangementController.Add (Meetings)'
+2019-08-04 17:50:00.075 +03:00 [INF] Request finished in 36.5825ms 200 application/json; charset=utf-8
+2019-08-04 17:50:10.023 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:64091/api/Arrangement/Add application/json;charset=UTF-8 32
+2019-08-04 17:50:10.025 +03:00 [INF] Executing endpoint 'Meetings.Controllers.ArrangementController.Add (Meetings)'
+2019-08-04 17:50:10.028 +03:00 [INF] Route matched with {action = "Add", controller = "Arrangement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(Meetings.Models.Arrangement) on controller Meetings.Controllers.ArrangementController (Meetings).
+2019-08-04 17:50:10.031 +03:00 [INF] Executing action method Meetings.Controllers.ArrangementController.Add (Meetings) - Validation state: "Valid"
+2019-08-04 17:50:10.033 +03:00 [INF] Executed action method Meetings.Controllers.ArrangementController.Add (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.0094ms.
+2019-08-04 17:50:10.034 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 17:50:10.036 +03:00 [INF] Executed action Meetings.Controllers.ArrangementController.Add (Meetings) in 6.3401000000000005ms
+2019-08-04 17:50:10.038 +03:00 [INF] Executed endpoint 'Meetings.Controllers.ArrangementController.Add (Meetings)'
+2019-08-04 17:50:10.040 +03:00 [INF] Request finished in 17.7101ms 200 application/json; charset=utf-8
+2019-08-04 18:07:29.560 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-04 18:07:31.383 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 18:07:31.424 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 18:07:32.225 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-08-04 18:07:32.225 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-08-04 18:07:32.246 +03:00 [INF] Request finished in 24.3435ms 200 
+2019-08-04 18:07:32.296 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 18:07:32.315 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-08-04 18:07:32.327 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-08-04 18:07:32.340 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.3267000000000007ms.
+2019-08-04 18:07:32.363 +03:00 [INF] Executing ViewResult, running view Index.
+2019-08-04 18:07:33.464 +03:00 [INF] Executed ViewResult - view Index executed in 1112.5926ms.
+2019-08-04 18:07:33.475 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 1157.5175000000002ms
+2019-08-04 18:07:33.479 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/main-client.js?v=dYZrVynekQ5dfR1DdKJvncqbHnomAmOcc-Aaj9TWUW4  
+2019-08-04 18:07:33.480 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 18:07:33.497 +03:00 [INF] Request finished in 1272.9638ms 200 text/html; charset=utf-8
+2019-08-04 18:07:33.788 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/main-client.js?v=dYZrVynekQ5dfR1DdKJvncqbHnomAmOcc-Aaj9TWUW4
+2019-08-04 18:07:35.413 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-08-04 18:07:36.377 +03:00 [INF] webpack built 22f178cde4b0368ebeb1 in 4668ms
+2019-08-04 18:07:36.390 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Hash: 22f178cde4b0368ebeb1
+Version: webpack 4.32.2
+Time: 4668ms
+Built at: 2019-08-04 6:07:36 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  3.77 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-08-04 18:07:36.393 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Compiled successfully.
+2019-08-04 18:07:36.430 +03:00 [INF] Request finished in 2951.9673ms 200 application/javascript; charset=UTF-8
+2019-08-04 18:07:36.745 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/__webpack_hmr  
+2019-08-04 18:12:48.074 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Arrangement/Search?term=  
+2019-08-04 18:12:48.090 +03:00 [INF] Executing endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 18:12:48.118 +03:00 [INF] Route matched with {action = "Search", controller = "Arrangement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.ArrangementController (Meetings).
+2019-08-04 18:12:48.135 +03:00 [INF] Executing action method Meetings.Controllers.ArrangementController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 18:12:48.138 +03:00 [INF] Executed action method Meetings.Controllers.ArrangementController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1.114ms.
+2019-08-04 18:12:48.144 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.Arrangement, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 18:12:48.158 +03:00 [INF] Executed action Meetings.Controllers.ArrangementController.Search (Meetings) in 37.9142ms
+2019-08-04 18:12:48.160 +03:00 [INF] Executed endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 18:12:48.163 +03:00 [INF] Request finished in 89.0761ms 200 application/json; charset=utf-8
+2019-08-04 18:12:56.065 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/main-client.js.map  
+2019-08-04 18:12:56.074 +03:00 [INF] Request finished in 9.5395ms 200 application/json; charset=UTF-8
+2019-08-04 19:41:02.542 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-04 19:41:04.196 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 19:41:04.241 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 19:41:05.009 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-08-04 19:41:05.009 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-08-04 19:41:05.028 +03:00 [INF] Request finished in 22.0194ms 200 
+2019-08-04 19:41:05.074 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 19:41:05.091 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-08-04 19:41:05.103 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-08-04 19:41:05.114 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.7739000000000003ms.
+2019-08-04 19:41:05.143 +03:00 [INF] Executing ViewResult, running view Index.
+2019-08-04 19:41:06.475 +03:00 [INF] Executed ViewResult - view Index executed in 1349.8803ms.
+2019-08-04 19:41:06.483 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 1390.0722ms
+2019-08-04 19:41:06.486 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 19:41:06.490 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/main-client.js?v=HoaxKnjRYdLzZa0NFM7w5Smh1Pq94xsVmcmttufFPto  
+2019-08-04 19:41:06.507 +03:00 [INF] Request finished in 1501.4252ms 200 text/html; charset=utf-8
+2019-08-04 19:41:06.545 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/main-client.js?v=HoaxKnjRYdLzZa0NFM7w5Smh1Pq94xsVmcmttufFPto
+2019-08-04 19:41:08.923 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-08-04 19:41:09.598 +03:00 [INF] webpack built 52bda80ed5d2bb0e05a5 in 5094ms
+2019-08-04 19:41:09.838 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Failed to compile.
+2019-08-04 19:41:09.844 +03:00 [ERR] [31m├Ч[39m [90mя╜вwdmя╜г[39m: Hash: 52bda80ed5d2bb0e05a5
+Version: webpack 4.32.2
+Time: 5094ms
+Built at: 2019-08-04 7:41:09 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  5.22 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+
+ERROR in ../node_modules/create-react-context/lib/index.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\create-react-context\lib'
+ @ ../node_modules/create-react-context/lib/index.js 5:13-29
+ @ ../node_modules/react-popper/lib/esm/Manager.js
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/create-react-context/lib/implementation.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\create-react-context\lib'
+ @ ../node_modules/create-react-context/lib/implementation.js 5:13-29
+ @ ../node_modules/create-react-context/lib/index.js
+ @ ../node_modules/react-popper/lib/esm/Manager.js
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-datepicker/es/index.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-datepicker\es'
+ @ ../node_modules/react-datepicker/es/index.js 1:0-26 726:15-20 734:34-39 749:24-29 757:10-15 764:21-26 772:10-15 822:11-16 830:2-7 854:21-26 864:13-18 874:13-18 884:8-13 885:8-13 892:13-18 948:11-16 958:2-7 974:15-20 982:36-41 998:11-16 1006:2-7 1026:15-20 1033:13-18 1045:13-18 1053:8-13 1054:8-13 1061:13-18 1108:11-16 1118:2-7 1147:15-20 1155:28-33 1185:11-16 1193:2-7 1218:21-26 1231:13-18 1243:13-18 1253:8-13 1254:8-13 1261:13-18 1308:11-16 1318:2-7 1471:11-16 1485:2-7 1511:11-16 1523:2-7 1563:18-23 1567:15-20 1596:11-16 1612:2-7 1672:19-24 1744:15-20 1748:19-24 1778:11-16 1791:2-7 1849:15-20 1883:11-16 1888:6-11 1896:8-13 1902:6-11 1905:8-13 1908:10-15 1936:2-7 1970:11-16 1973:6-11 1978:6-11 1981:8-13 1984:10-15 2001:2-7 2009:9-14 2012:4-9 2169:22-27 2178:15-20 2225:13-18 2274:13-18 2299:13-18 2312:13-18 2333:13-18 2348:13-18 2364:13-18 2379:13-18 2383:8-13 2393:8-13 2413:13-18 2427:8-13 2436:13-18 2453:23-28 2463:10-15 2504:15-20 2530:15-20 2574:11-16 2592:2-7 2617:15-20 2628:17-22 2634:12-17 2641:15-20 2644:11-16 2647:6-11 2652:17-22 2681:2-7 3081:13-18 3169:51-56 3173:13-18 3180:15-20 3225:13-18 3228:29-34 3234:47-52 3242:11-16 3246:23-28 3260:2-7
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-onclickoutside\dist'
+ @ ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js 1:0-49 333:13-26 337:4-13
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-popper/lib/esm/Popper.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-popper\lib\esm'
+ @ ../node_modules/react-popper/lib/esm/Popper.js 6:0-31 173:2-17 188:9-28 190:11-30
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-popper/lib/esm/Manager.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-popper\lib\esm'
+ @ ../node_modules/react-popper/lib/esm/Manager.js 5:0-31 49:11-30 55:2-17
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-popper/lib/esm/Reference.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-popper\lib\esm'
+ @ ../node_modules/react-popper/lib/esm/Reference.js 5:0-31 42:2-17 45:9-28 47:11-30
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js
+Module not found: Error: Can't resolve 'react-dom' in 'C:\Projects\Meetings\node_modules\react-onclickoutside\dist'
+ @ ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js 2:0-40 293:27-38 300:27-38
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+2019-08-04 19:41:09.899 +03:00 [INF] Request finished in 3409.2604ms 200 application/javascript; charset=UTF-8
+2019-08-04 19:41:10.215 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/__webpack_hmr  
+2019-08-04 19:41:43.698 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-04 19:41:45.234 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 19:41:45.270 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 19:41:45.939 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-08-04 19:41:45.939 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-08-04 19:41:45.960 +03:00 [INF] Request finished in 23.2675ms 200 
+2019-08-04 19:41:46.005 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 19:41:46.021 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-08-04 19:41:46.033 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-08-04 19:41:46.043 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.5753ms.
+2019-08-04 19:41:46.067 +03:00 [INF] Executing ViewResult, running view Index.
+2019-08-04 19:41:46.617 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 591.5026ms
+2019-08-04 19:41:46.619 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 19:41:46.771 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: Prerendering failed because of error: Error: Cannot find module 'react'
+    at webpackMissingModule (webpack-internal:///../node_modules/react-datepicker/lib/index.js:7:93)
+    at eval (webpack-internal:///../node_modules/react-datepicker/lib/index.js:7:173)
+    at Object.../node_modules/react-datepicker/lib/index.js (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:1440:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at eval (webpack-internal:///./ClientApp/components/arrangement/ArrangementEditor.jsx:23:75)
+    at Object../ClientApp/components/arrangement/ArrangementEditor.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:1609:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at eval (webpack-internal:///./ClientApp/pages/ArrangementPage.jsx:29:100)
+    at Object../ClientApp/pages/ArrangementPage.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:1803:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+Current directory is: C:\Projects\Meetings\Meetings
+
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at AspNetCore.Views_Main_Index.ExecuteAsync() in C:\Projects\Meetings\Meetings\Views\Main\Index.cshtml:line 7
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-04 19:41:46.825 +03:00 [INF] Request finished in 888.4139ms 500 text/html; charset=utf-8
+2019-08-04 19:41:49.176 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-08-04 19:41:50.154 +03:00 [INF] webpack built ca28aea5e7f7ba8f7c1e in 4667ms
+2019-08-04 19:41:50.165 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Hash: ca28aea5e7f7ba8f7c1e
+Version: webpack 4.32.2
+Time: 4667ms
+Built at: 2019-08-04 7:41:50 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  3.77 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-08-04 19:41:50.167 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Compiled successfully.
+2019-08-04 19:42:19.496 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-04 19:42:21.144 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 19:42:21.179 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 19:42:21.851 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-08-04 19:42:21.851 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-08-04 19:42:21.870 +03:00 [INF] Request finished in 21.536ms 200 
+2019-08-04 19:42:21.915 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 19:42:21.931 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-08-04 19:42:21.943 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-08-04 19:42:21.952 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.5984000000000003ms.
+2019-08-04 19:42:21.976 +03:00 [INF] Executing ViewResult, running view Index.
+2019-08-04 19:42:23.083 +03:00 [INF] Executed ViewResult - view Index executed in 1120.7108ms.
+2019-08-04 19:42:23.091 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 1158.4712ms
+2019-08-04 19:42:23.094 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 19:42:23.101 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/main-client.js?v=L7SFDqL53uhVxMRJ768LUd-8OM0CdAnl5FWsNPQhl6Q  
+2019-08-04 19:42:23.113 +03:00 [INF] Request finished in 1264.648ms 200 text/html; charset=utf-8
+2019-08-04 19:42:23.333 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/main-client.js?v=L7SFDqL53uhVxMRJ768LUd-8OM0CdAnl5FWsNPQhl6Q
+2019-08-04 19:42:25.837 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-08-04 19:42:26.486 +03:00 [INF] webpack built 52bda80ed5d2bb0e05a5 in 5055ms
+2019-08-04 19:42:26.737 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Failed to compile.
+2019-08-04 19:42:26.742 +03:00 [ERR] [31m├Ч[39m [90mя╜вwdmя╜г[39m: Hash: 52bda80ed5d2bb0e05a5
+Version: webpack 4.32.2
+Time: 5055ms
+Built at: 2019-08-04 7:42:26 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  5.22 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+
+ERROR in ../node_modules/create-react-context/lib/index.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\create-react-context\lib'
+ @ ../node_modules/create-react-context/lib/index.js 5:13-29
+ @ ../node_modules/react-popper/lib/esm/Manager.js
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/create-react-context/lib/implementation.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\create-react-context\lib'
+ @ ../node_modules/create-react-context/lib/implementation.js 5:13-29
+ @ ../node_modules/create-react-context/lib/index.js
+ @ ../node_modules/react-popper/lib/esm/Manager.js
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-datepicker/es/index.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-datepicker\es'
+ @ ../node_modules/react-datepicker/es/index.js 1:0-26 726:15-20 734:34-39 749:24-29 757:10-15 764:21-26 772:10-15 822:11-16 830:2-7 854:21-26 864:13-18 874:13-18 884:8-13 885:8-13 892:13-18 948:11-16 958:2-7 974:15-20 982:36-41 998:11-16 1006:2-7 1026:15-20 1033:13-18 1045:13-18 1053:8-13 1054:8-13 1061:13-18 1108:11-16 1118:2-7 1147:15-20 1155:28-33 1185:11-16 1193:2-7 1218:21-26 1231:13-18 1243:13-18 1253:8-13 1254:8-13 1261:13-18 1308:11-16 1318:2-7 1471:11-16 1485:2-7 1511:11-16 1523:2-7 1563:18-23 1567:15-20 1596:11-16 1612:2-7 1672:19-24 1744:15-20 1748:19-24 1778:11-16 1791:2-7 1849:15-20 1883:11-16 1888:6-11 1896:8-13 1902:6-11 1905:8-13 1908:10-15 1936:2-7 1970:11-16 1973:6-11 1978:6-11 1981:8-13 1984:10-15 2001:2-7 2009:9-14 2012:4-9 2169:22-27 2178:15-20 2225:13-18 2274:13-18 2299:13-18 2312:13-18 2333:13-18 2348:13-18 2364:13-18 2379:13-18 2383:8-13 2393:8-13 2413:13-18 2427:8-13 2436:13-18 2453:23-28 2463:10-15 2504:15-20 2530:15-20 2574:11-16 2592:2-7 2617:15-20 2628:17-22 2634:12-17 2641:15-20 2644:11-16 2647:6-11 2652:17-22 2681:2-7 3081:13-18 3169:51-56 3173:13-18 3180:15-20 3225:13-18 3228:29-34 3234:47-52 3242:11-16 3246:23-28 3260:2-7
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-onclickoutside\dist'
+ @ ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js 1:0-49 333:13-26 337:4-13
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-popper/lib/esm/Manager.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-popper\lib\esm'
+ @ ../node_modules/react-popper/lib/esm/Manager.js 5:0-31 49:11-30 55:2-17
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-popper/lib/esm/Popper.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-popper\lib\esm'
+ @ ../node_modules/react-popper/lib/esm/Popper.js 6:0-31 173:2-17 188:9-28 190:11-30
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-popper/lib/esm/Reference.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-popper\lib\esm'
+ @ ../node_modules/react-popper/lib/esm/Reference.js 5:0-31 42:2-17 45:9-28 47:11-30
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js
+Module not found: Error: Can't resolve 'react-dom' in 'C:\Projects\Meetings\node_modules\react-onclickoutside\dist'
+ @ ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js 2:0-40 293:27-38 300:27-38
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+2019-08-04 19:42:26.788 +03:00 [INF] Request finished in 3686.8595ms 200 application/javascript; charset=UTF-8
+2019-08-04 19:42:27.091 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/__webpack_hmr  
+2019-08-04 19:42:58.635 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-04 19:43:00.241 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 19:43:00.280 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 19:43:00.902 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-08-04 19:43:00.902 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-08-04 19:43:00.920 +03:00 [INF] Request finished in 21.711ms 200 
+2019-08-04 19:43:00.966 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 19:43:00.984 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-08-04 19:43:00.997 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-08-04 19:43:01.007 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.6705ms.
+2019-08-04 19:43:01.035 +03:00 [INF] Executing ViewResult, running view Index.
+2019-08-04 19:43:01.574 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 585.50430000000006ms
+2019-08-04 19:43:01.576 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 19:43:01.620 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: Prerendering failed because of error: Error: Cannot find module 'react'
+    at webpackMissingModule (webpack-internal:///../node_modules/react-datepicker/lib/index.js:7:93)
+    at eval (webpack-internal:///../node_modules/react-datepicker/lib/index.js:7:173)
+    at Object.../node_modules/react-datepicker/lib/index.js (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:1440:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at eval (webpack-internal:///./ClientApp/components/arrangement/ArrangementEditor.jsx:23:75)
+    at Object../ClientApp/components/arrangement/ArrangementEditor.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:1609:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at eval (webpack-internal:///./ClientApp/pages/ArrangementPage.jsx:29:100)
+    at Object../ClientApp/pages/ArrangementPage.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:1803:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+Current directory is: C:\Projects\Meetings\Meetings
+
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at AspNetCore.Views_Main_Index.ExecuteAsync() in C:\Projects\Meetings\Meetings\Views\Main\Index.cshtml:line 7
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-04 19:43:01.660 +03:00 [INF] Request finished in 761.2026ms 500 text/html; charset=utf-8
+2019-08-04 19:43:04.861 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-08-04 19:43:05.807 +03:00 [INF] webpack built 2467dee58c3e997a7290 in 5298ms
+2019-08-04 19:43:05.854 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Failed to compile.
+2019-08-04 19:43:05.857 +03:00 [ERR] [31m├Ч[39m [90mя╜вwdmя╜г[39m: Hash: 2467dee58c3e997a7290
+Version: webpack 4.32.2
+Time: 5298ms
+Built at: 2019-08-04 7:43:05 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  5.22 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+
+WARNING in ./ClientApp/components/arrangement/ArrangementEditor.jsx 1:2471-2481
+"export 'DatePicker' was not found in 'react-datepicker'
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/create-react-context/lib/index.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\create-react-context\lib'
+ @ ../node_modules/create-react-context/lib/index.js 5:13-29
+ @ ../node_modules/react-popper/lib/esm/Manager.js
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/create-react-context/lib/implementation.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\create-react-context\lib'
+ @ ../node_modules/create-react-context/lib/implementation.js 5:13-29
+ @ ../node_modules/create-react-context/lib/index.js
+ @ ../node_modules/react-popper/lib/esm/Manager.js
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-datepicker/es/index.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-datepicker\es'
+ @ ../node_modules/react-datepicker/es/index.js 1:0-26 726:15-20 734:34-39 749:24-29 757:10-15 764:21-26 772:10-15 822:11-16 830:2-7 854:21-26 864:13-18 874:13-18 884:8-13 885:8-13 892:13-18 948:11-16 958:2-7 974:15-20 982:36-41 998:11-16 1006:2-7 1026:15-20 1033:13-18 1045:13-18 1053:8-13 1054:8-13 1061:13-18 1108:11-16 1118:2-7 1147:15-20 1155:28-33 1185:11-16 1193:2-7 1218:21-26 1231:13-18 1243:13-18 1253:8-13 1254:8-13 1261:13-18 1308:11-16 1318:2-7 1471:11-16 1485:2-7 1511:11-16 1523:2-7 1563:18-23 1567:15-20 1596:11-16 1612:2-7 1672:19-24 1744:15-20 1748:19-24 1778:11-16 1791:2-7 1849:15-20 1883:11-16 1888:6-11 1896:8-13 1902:6-11 1905:8-13 1908:10-15 1936:2-7 1970:11-16 1973:6-11 1978:6-11 1981:8-13 1984:10-15 2001:2-7 2009:9-14 2012:4-9 2169:22-27 2178:15-20 2225:13-18 2274:13-18 2299:13-18 2312:13-18 2333:13-18 2348:13-18 2364:13-18 2379:13-18 2383:8-13 2393:8-13 2413:13-18 2427:8-13 2436:13-18 2453:23-28 2463:10-15 2504:15-20 2530:15-20 2574:11-16 2592:2-7 2617:15-20 2628:17-22 2634:12-17 2641:15-20 2644:11-16 2647:6-11 2652:17-22 2681:2-7 3081:13-18 3169:51-56 3173:13-18 3180:15-20 3225:13-18 3228:29-34 3234:47-52 3242:11-16 3246:23-28 3260:2-7
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-onclickoutside\dist'
+ @ ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js 1:0-49 333:13-26 337:4-13
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-popper/lib/esm/Reference.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-popper\lib\esm'
+ @ ../node_modules/react-popper/lib/esm/Reference.js 5:0-31 42:2-17 45:9-28 47:11-30
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-popper/lib/esm/Popper.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-popper\lib\esm'
+ @ ../node_modules/react-popper/lib/esm/Popper.js 6:0-31 173:2-17 188:9-28 190:11-30
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-popper/lib/esm/Manager.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-popper\lib\esm'
+ @ ../node_modules/react-popper/lib/esm/Manager.js 5:0-31 49:11-30 55:2-17
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js
+Module not found: Error: Can't resolve 'react-dom' in 'C:\Projects\Meetings\node_modules\react-onclickoutside\dist'
+ @ ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js 2:0-40 293:27-38 300:27-38
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+2019-08-04 19:44:19.612 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-04 19:44:21.295 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 19:44:21.336 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 19:44:22.070 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-08-04 19:44:22.070 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-08-04 19:44:22.089 +03:00 [INF] Request finished in 22.2161ms 200 
+2019-08-04 19:44:22.140 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 19:44:22.158 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-08-04 19:44:22.169 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-08-04 19:44:22.180 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.5824000000000003ms.
+2019-08-04 19:44:22.202 +03:00 [INF] Executing ViewResult, running view Index.
+2019-08-04 19:44:22.745 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 583.4353ms
+2019-08-04 19:44:22.748 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 19:44:22.801 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: Prerendering failed because of error: Error: Cannot find module 'react'
+    at webpackMissingModule (webpack-internal:///../node_modules/react-datepicker/lib/index.js:7:93)
+    at eval (webpack-internal:///../node_modules/react-datepicker/lib/index.js:7:173)
+    at Object.../node_modules/react-datepicker/lib/index.js (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:1440:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at eval (webpack-internal:///./ClientApp/components/arrangement/ArrangementEditor.jsx:23:75)
+    at Object../ClientApp/components/arrangement/ArrangementEditor.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:1609:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at eval (webpack-internal:///./ClientApp/pages/ArrangementPage.jsx:29:100)
+    at Object../ClientApp/pages/ArrangementPage.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:1803:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+Current directory is: C:\Projects\Meetings\Meetings
+
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at AspNetCore.Views_Main_Index.ExecuteAsync() in C:\Projects\Meetings\Meetings\Views\Main\Index.cshtml:line 7
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-04 19:44:22.842 +03:00 [INF] Request finished in 775.182ms 500 text/html; charset=utf-8
+2019-08-04 19:44:25.983 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-08-04 19:44:27.013 +03:00 [INF] webpack built 2467dee58c3e997a7290 in 5449ms
+2019-08-04 19:44:27.057 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Failed to compile.
+2019-08-04 19:44:27.063 +03:00 [ERR] [31m├Ч[39m [90mя╜вwdmя╜г[39m: Hash: 2467dee58c3e997a7290
+Version: webpack 4.32.2
+Time: 5449ms
+Built at: 2019-08-04 7:44:26 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  5.22 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+
+WARNING in ./ClientApp/components/arrangement/ArrangementEditor.jsx 1:2471-2481
+"export 'DatePicker' was not found in 'react-datepicker'
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/create-react-context/lib/index.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\create-react-context\lib'
+ @ ../node_modules/create-react-context/lib/index.js 5:13-29
+ @ ../node_modules/react-popper/lib/esm/Manager.js
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/create-react-context/lib/implementation.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\create-react-context\lib'
+ @ ../node_modules/create-react-context/lib/implementation.js 5:13-29
+ @ ../node_modules/create-react-context/lib/index.js
+ @ ../node_modules/react-popper/lib/esm/Manager.js
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-datepicker/es/index.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-datepicker\es'
+ @ ../node_modules/react-datepicker/es/index.js 1:0-26 726:15-20 734:34-39 749:24-29 757:10-15 764:21-26 772:10-15 822:11-16 830:2-7 854:21-26 864:13-18 874:13-18 884:8-13 885:8-13 892:13-18 948:11-16 958:2-7 974:15-20 982:36-41 998:11-16 1006:2-7 1026:15-20 1033:13-18 1045:13-18 1053:8-13 1054:8-13 1061:13-18 1108:11-16 1118:2-7 1147:15-20 1155:28-33 1185:11-16 1193:2-7 1218:21-26 1231:13-18 1243:13-18 1253:8-13 1254:8-13 1261:13-18 1308:11-16 1318:2-7 1471:11-16 1485:2-7 1511:11-16 1523:2-7 1563:18-23 1567:15-20 1596:11-16 1612:2-7 1672:19-24 1744:15-20 1748:19-24 1778:11-16 1791:2-7 1849:15-20 1883:11-16 1888:6-11 1896:8-13 1902:6-11 1905:8-13 1908:10-15 1936:2-7 1970:11-16 1973:6-11 1978:6-11 1981:8-13 1984:10-15 2001:2-7 2009:9-14 2012:4-9 2169:22-27 2178:15-20 2225:13-18 2274:13-18 2299:13-18 2312:13-18 2333:13-18 2348:13-18 2364:13-18 2379:13-18 2383:8-13 2393:8-13 2413:13-18 2427:8-13 2436:13-18 2453:23-28 2463:10-15 2504:15-20 2530:15-20 2574:11-16 2592:2-7 2617:15-20 2628:17-22 2634:12-17 2641:15-20 2644:11-16 2647:6-11 2652:17-22 2681:2-7 3081:13-18 3169:51-56 3173:13-18 3180:15-20 3225:13-18 3228:29-34 3234:47-52 3242:11-16 3246:23-28 3260:2-7
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-onclickoutside\dist'
+ @ ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js 1:0-49 333:13-26 337:4-13
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-popper/lib/esm/Reference.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-popper\lib\esm'
+ @ ../node_modules/react-popper/lib/esm/Reference.js 5:0-31 42:2-17 45:9-28 47:11-30
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-popper/lib/esm/Popper.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-popper\lib\esm'
+ @ ../node_modules/react-popper/lib/esm/Popper.js 6:0-31 173:2-17 188:9-28 190:11-30
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-popper/lib/esm/Manager.js
+Module not found: Error: Can't resolve 'react' in 'C:\Projects\Meetings\node_modules\react-popper\lib\esm'
+ @ ../node_modules/react-popper/lib/esm/Manager.js 5:0-31 49:11-30 55:2-17
+ @ ../node_modules/react-popper/lib/esm/index.js
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+
+ERROR in ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js
+Module not found: Error: Can't resolve 'react-dom' in 'C:\Projects\Meetings\node_modules\react-onclickoutside\dist'
+ @ ../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js 2:0-40 293:27-38 300:27-38
+ @ ../node_modules/react-datepicker/es/index.js
+ @ ./ClientApp/components/arrangement/ArrangementEditor.jsx
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+2019-08-04 19:45:17.493 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-04 19:45:19.223 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 19:45:19.266 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 19:45:19.997 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-08-04 19:45:19.997 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-08-04 19:45:20.017 +03:00 [INF] Request finished in 22.6198ms 200 
+2019-08-04 19:45:20.067 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 19:45:20.085 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-08-04 19:45:20.097 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-08-04 19:45:20.107 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.6106000000000003ms.
+2019-08-04 19:45:20.132 +03:00 [INF] Executing ViewResult, running view Index.
+2019-08-04 19:45:20.677 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 588.1938ms
+2019-08-04 19:45:20.679 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 19:45:20.722 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: Prerendering failed because of error: Error: Cannot find module 'react'
+    at webpackMissingModule (webpack-internal:///../node_modules/react-datepicker/lib/index.js:7:93)
+    at eval (webpack-internal:///../node_modules/react-datepicker/lib/index.js:7:173)
+    at Object.../node_modules/react-datepicker/lib/index.js (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:1440:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at eval (webpack-internal:///./ClientApp/components/arrangement/ArrangementEditor.jsx:23:75)
+    at Object../ClientApp/components/arrangement/ArrangementEditor.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:1609:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at eval (webpack-internal:///./ClientApp/pages/ArrangementPage.jsx:29:100)
+    at Object../ClientApp/pages/ArrangementPage.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:1803:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+Current directory is: C:\Projects\Meetings\Meetings
+
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at AspNetCore.Views_Main_Index.ExecuteAsync() in C:\Projects\Meetings\Meetings\Views\Main\Index.cshtml:line 7
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-04 19:45:20.762 +03:00 [INF] Request finished in 767.6011ms 500 text/html; charset=utf-8
+2019-08-04 19:45:23.096 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-08-04 19:45:24.011 +03:00 [INF] webpack built 6162630745901dab0be7 in 4511ms
+2019-08-04 19:45:24.036 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Hash: 6162630745901dab0be7
+Version: webpack 4.32.2
+Time: 4511ms
+Built at: 2019-08-04 7:45:23 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  3.76 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-08-04 19:45:24.041 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Compiled successfully.
+2019-08-04 19:46:07.072 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-04 19:46:08.677 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 19:46:08.727 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-08-04 19:46:09.319 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-08-04 19:46:09.319 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-08-04 19:46:09.339 +03:00 [INF] Request finished in 22.2928ms 200 
+2019-08-04 19:46:09.386 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 19:46:09.402 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-08-04 19:46:09.414 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-08-04 19:46:09.425 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.6722ms.
+2019-08-04 19:46:09.447 +03:00 [INF] Executing ViewResult, running view Index.
+2019-08-04 19:46:10.780 +03:00 [INF] Executed ViewResult - view Index executed in 1345.6012ms.
+2019-08-04 19:46:10.789 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 1384.7738000000002ms
+2019-08-04 19:46:10.793 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/main-client.js?v=pvwgSmoBZRxy9jGHdy8fMPwC4VD8yn8fRGyKUmjek8Y  
+2019-08-04 19:46:10.794 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-08-04 19:46:10.808 +03:00 [INF] Request finished in 1492.799ms 200 text/html; charset=utf-8
+2019-08-04 19:46:10.971 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/main-client.js?v=pvwgSmoBZRxy9jGHdy8fMPwC4VD8yn8fRGyKUmjek8Y
+2019-08-04 19:46:12.717 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-08-04 19:46:13.670 +03:00 [INF] webpack built 6162630745901dab0be7 in 4731ms
+2019-08-04 19:46:13.682 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Hash: 6162630745901dab0be7
+Version: webpack 4.32.2
+Time: 4731ms
+Built at: 2019-08-04 7:46:13 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  3.76 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-08-04 19:46:13.691 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Compiled successfully.
+2019-08-04 19:46:13.731 +03:00 [INF] Request finished in 2938.5579ms 200 application/javascript; charset=UTF-8
+2019-08-04 19:46:14.027 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/__webpack_hmr  
+2019-08-04 19:46:17.861 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Person/Search?term=  
+2019-08-04 19:46:17.866 +03:00 [INF] Executing endpoint 'Meetings.Controllers.PersonController.Search (Meetings)'
+2019-08-04 19:46:17.896 +03:00 [INF] Route matched with {action = "Search", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.PersonController (Meetings).
+2019-08-04 19:46:17.910 +03:00 [INF] Executing action method Meetings.Controllers.PersonController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 19:46:17.913 +03:00 [INF] Executed action method Meetings.Controllers.PersonController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.9786ms.
+2019-08-04 19:46:17.917 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.PersonModel, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 19:46:17.925 +03:00 [INF] Executed action Meetings.Controllers.PersonController.Search (Meetings) in 25.8702ms
+2019-08-04 19:46:17.927 +03:00 [INF] Executed endpoint 'Meetings.Controllers.PersonController.Search (Meetings)'
+2019-08-04 19:46:17.929 +03:00 [INF] Request finished in 67.7836ms 200 application/json; charset=utf-8
+2019-08-04 19:46:19.804 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/api/Arrangement/Search?term=  
+2019-08-04 19:46:19.809 +03:00 [INF] Executing endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 19:46:19.813 +03:00 [INF] Route matched with {action = "Search", controller = "Arrangement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller Meetings.Controllers.ArrangementController (Meetings).
+2019-08-04 19:46:19.817 +03:00 [INF] Executing action method Meetings.Controllers.ArrangementController.Search (Meetings) - Validation state: "Valid"
+2019-08-04 19:46:19.819 +03:00 [INF] Executed action method Meetings.Controllers.ArrangementController.Search (Meetings), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.93070000000000008ms.
+2019-08-04 19:46:19.821 +03:00 [INF] Executing JsonResult, writing value of type 'Meetings.Infrastructure.Result`1[[System.Collections.Generic.List`1[[Meetings.Models.Arrangement, Meetings.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-08-04 19:46:19.830 +03:00 [INF] Executed action Meetings.Controllers.ArrangementController.Search (Meetings) in 15.6088ms
+2019-08-04 19:46:19.832 +03:00 [INF] Executed endpoint 'Meetings.Controllers.ArrangementController.Search (Meetings)'
+2019-08-04 19:46:19.834 +03:00 [INF] Request finished in 29.695ms 200 application/json; charset=utf-8

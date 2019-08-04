@@ -1,0 +1,341 @@
+2019-07-18 22:16:38.215 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-18 22:16:40.719 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-07-18 22:16:40.785 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-07-18 22:16:41.702 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-07-18 22:16:41.702 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-07-18 22:16:41.738 +03:00 [INF] Request finished in 39.735ms 200 
+2019-07-18 22:16:41.784 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-07-18 22:16:41.811 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-07-18 22:16:41.824 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-07-18 22:16:41.836 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.7638000000000003ms.
+2019-07-18 22:16:41.865 +03:00 [INF] Executing ViewResult, running view Index.
+2019-07-18 22:16:43.140 +03:00 [INF] Executed ViewResult - view Index executed in 1292.4688ms.
+2019-07-18 22:16:43.150 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 1336.1486ms
+2019-07-18 22:16:43.154 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-07-18 22:16:43.157 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/vendor.js?v=AVmzkbEhZAeA4yhwV7_opHw1evsA6VHuYtuu0awmyF4  
+2019-07-18 22:16:43.180 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/main-client.js?v=H4KoSNcn9Ra9DPObJlX1Rg45ISHvRn4ZHgQ-yS-o1dc  
+2019-07-18 22:16:43.184 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/vendor.css?v=f-quCl14D-DPeasviVSwrLusD7NUpgjDT84aVGn-XjY  
+2019-07-18 22:16:43.201 +03:00 [INF] Request finished in 1503.2592ms 200 text/html; charset=utf-8
+2019-07-18 22:16:43.281 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/main-client.js?v=H4KoSNcn9Ra9DPObJlX1Rg45ISHvRn4ZHgQ-yS-o1dc
+2019-07-18 22:16:43.283 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/vendor.js?v=AVmzkbEhZAeA4yhwV7_opHw1evsA6VHuYtuu0awmyF4
+2019-07-18 22:16:43.285 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/vendor.css?v=f-quCl14D-DPeasviVSwrLusD7NUpgjDT84aVGn-XjY
+2019-07-18 22:16:44.601 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-07-18 22:16:45.703 +03:00 [INF] webpack built 585226e0c351da16e1e2 in 4652ms
+2019-07-18 22:16:45.733 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Failed to compile.
+2019-07-18 22:16:45.741 +03:00 [ERR] [31m├Ч[39m [90mя╜вwdmя╜г[39m: Hash: 585226e0c351da16e1e2
+Version: webpack 4.32.2
+Time: 4652ms
+Built at: 2019-07-18 10:16:45 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js   3.7 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+
+ERROR in ./ClientApp/store/ArrangementStore.js
+Module not found: Error: Can't resolve '@Services/ArrangementService' in 'C:\Projects\Meetings\Meetings\ClientApp\store'
+ @ ./ClientApp/store/ArrangementStore.js 1:220-281 2:62-80 2:858-876 2:1597-1615 2:2317-2335
+ @ ./ClientApp/store/index.js
+ @ ./ClientApp/configureStore.js
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+2019-07-18 22:16:45.775 +03:00 [INF] Sending file. Request path: '/dist/vendor.css'. Physical path: 'C:\Projects\Meetings\Meetings\wwwroot\dist\vendor.css'
+2019-07-18 22:16:45.777 +03:00 [INF] Request finished in 2594.5591ms 200 text/css
+2019-07-18 22:16:45.795 +03:00 [INF] Request finished in 2634.8829ms 200 application/javascript; charset=UTF-8
+2019-07-18 22:16:46.019 +03:00 [INF] Sending file. Request path: '/dist/vendor.js'. Physical path: 'C:\Projects\Meetings\Meetings\wwwroot\dist\vendor.js'
+2019-07-18 22:16:46.021 +03:00 [INF] Request finished in 2864.2285ms 200 application/javascript
+2019-07-18 22:16:46.510 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/dist/__webpack_hmr  
+2019-07-18 22:16:46.511 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/favicon.ico  
+2019-07-18 22:16:46.519 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Projects\Meetings\Meetings\wwwroot\favicon.ico'
+2019-07-18 22:16:46.526 +03:00 [INF] Request finished in 12.9769ms 200 image/x-icon
+2019-07-18 22:18:08.222 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-18 22:18:09.972 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-07-18 22:18:10.015 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-07-18 22:18:10.884 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-07-18 22:18:10.884 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-07-18 22:18:10.908 +03:00 [INF] Request finished in 27.9027ms 200 
+2019-07-18 22:18:10.955 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-07-18 22:18:10.973 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-07-18 22:18:10.985 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-07-18 22:18:10.995 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.4812000000000003ms.
+2019-07-18 22:18:11.020 +03:00 [INF] Executing ViewResult, running view Index.
+2019-07-18 22:18:11.583 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 604.93090000000007ms
+2019-07-18 22:18:11.587 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-07-18 22:18:11.679 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: Prerendering failed because of error: ReferenceError: ArrangementPage is not defined
+    at eval (webpack-internal:///./ClientApp/routes.jsx:12:1305)
+    at Object../ClientApp/routes.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:357:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at eval (webpack-internal:///./ClientApp/boot-server.jsx:16:65)
+    at Module../ClientApp/boot-server.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:124:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:84:18
+    at Object.<anonymous> (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:87:10)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+Current directory is: C:\Projects\Meetings\Meetings
+
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at AspNetCore.Views_Main_Index.ExecuteAsync() in C:\Projects\Meetings\Meetings\Views\Main\Index.cshtml:line 7
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-18 22:18:11.725 +03:00 [INF] Request finished in 845.3945ms 500 text/html; charset=utf-8
+2019-07-18 22:18:13.751 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-07-18 22:18:14.894 +03:00 [INF] webpack built 585226e0c351da16e1e2 in 4631ms
+2019-07-18 22:18:14.907 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Failed to compile.
+2019-07-18 22:18:14.911 +03:00 [ERR] [31m├Ч[39m [90mя╜вwdmя╜г[39m: Hash: 585226e0c351da16e1e2
+Version: webpack 4.32.2
+Time: 4631ms
+Built at: 2019-07-18 10:18:14 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js   3.7 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+
+ERROR in ./ClientApp/store/ArrangementStore.js
+Module not found: Error: Can't resolve '@Services/ArrangementService' in 'C:\Projects\Meetings\Meetings\ClientApp\store'
+ @ ./ClientApp/store/ArrangementStore.js 1:220-281 2:62-80 2:858-876 2:1597-1615 2:2317-2335
+ @ ./ClientApp/store/index.js
+ @ ./ClientApp/configureStore.js
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+2019-07-18 22:23:49.049 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-18 22:23:50.895 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-07-18 22:23:50.935 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-07-18 22:23:51.781 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-07-18 22:23:51.781 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-07-18 22:23:51.801 +03:00 [INF] Request finished in 24.1821ms 200 
+2019-07-18 22:23:51.850 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-07-18 22:23:51.867 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-07-18 22:23:51.879 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-07-18 22:23:51.889 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.4863ms.
+2019-07-18 22:23:51.914 +03:00 [INF] Executing ViewResult, running view Index.
+2019-07-18 22:23:52.420 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 549.2703ms
+2019-07-18 22:23:52.423 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-07-18 22:23:52.466 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: Prerendering failed because of error: ReferenceError: ArrangementPage is not defined
+    at eval (webpack-internal:///./ClientApp/routes.jsx:12:1305)
+    at Object../ClientApp/routes.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:357:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at eval (webpack-internal:///./ClientApp/boot-server.jsx:16:65)
+    at Module../ClientApp/boot-server.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:124:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:84:18
+    at Object.<anonymous> (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:87:10)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+Current directory is: C:\Projects\Meetings\Meetings
+
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at AspNetCore.Views_Main_Index.ExecuteAsync() in C:\Projects\Meetings\Meetings\Views\Main\Index.cshtml:line 7
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-18 22:23:52.501 +03:00 [INF] Request finished in 723.8579ms 500 text/html; charset=utf-8
+2019-07-18 22:23:54.743 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-07-18 22:23:55.865 +03:00 [INF] webpack built e4ee92ab146ec0af15d5 in 4667ms
+2019-07-18 22:23:55.893 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Failed to compile.
+2019-07-18 22:23:55.898 +03:00 [ERR] [31m├Ч[39m [90mя╜вwdmя╜г[39m: Hash: e4ee92ab146ec0af15d5
+Version: webpack 4.32.2
+Time: 4667ms
+Built at: 2019-07-18 10:23:55 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  3.76 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+
+ERROR in ./ClientApp/store/ArrangementStore.js
+Module not found: Error: Can't resolve '@Services/ArrangementService' in 'C:\Projects\Meetings\Meetings\ClientApp\store'
+ @ ./ClientApp/store/ArrangementStore.js 1:220-281 2:62-80 2:858-876 2:1597-1615 2:2317-2335
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+2019-07-18 23:54:04.021 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-18 23:54:06.083 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-07-18 23:54:06.123 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-07-18 23:54:07.141 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-07-18 23:54:07.141 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-07-18 23:54:07.175 +03:00 [INF] Request finished in 38.4081ms 200 
+2019-07-18 23:54:07.226 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-07-18 23:54:07.254 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-07-18 23:54:07.267 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-07-18 23:54:07.279 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.5611ms.
+2019-07-18 23:54:07.328 +03:00 [INF] Executing ViewResult, running view Index.
+2019-07-18 23:54:07.893 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 632.4136ms
+2019-07-18 23:54:07.896 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-07-18 23:54:07.992 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: Prerendering failed because of error: Error: Cannot find module '@Services/ArrangementService'
+    at webpackMissingModule (webpack-internal:///./ClientApp/store/ArrangementStore.js:10:45)
+    at eval (webpack-internal:///./ClientApp/store/ArrangementStore.js:10:148)
+    at Object../ClientApp/store/ArrangementStore.js (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:435:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at eval (webpack-internal:///./ClientApp/pages/ArrangementPage.jsx:25:82)
+    at Object../ClientApp/pages/ArrangementPage.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:331:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at eval (webpack-internal:///./ClientApp/routes.jsx:12:80)
+    at Object../ClientApp/routes.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:383:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+Current directory is: C:\Projects\Meetings\Meetings
+
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at AspNetCore.Views_Main_Index.ExecuteAsync() in C:\Projects\Meetings\Meetings\Views\Main\Index.cshtml:line 7
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-18 23:54:08.051 +03:00 [INF] Request finished in 906.9599ms 500 text/html; charset=utf-8
+2019-07-18 23:54:10.278 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-07-18 23:54:11.307 +03:00 [INF] webpack built e4ee92ab146ec0af15d5 in 4963ms
+2019-07-18 23:54:11.332 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Failed to compile.
+2019-07-18 23:54:11.333 +03:00 [ERR] [31m├Ч[39m [90mя╜вwdmя╜г[39m: Hash: e4ee92ab146ec0af15d5
+Version: webpack 4.32.2
+Time: 4963ms
+Built at: 2019-07-18 11:54:11 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  3.76 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+
+ERROR in ./ClientApp/store/ArrangementStore.js
+Module not found: Error: Can't resolve '@Services/ArrangementService' in 'C:\Projects\Meetings\Meetings\ClientApp\store'
+ @ ./ClientApp/store/ArrangementStore.js 1:220-281 2:62-80 2:858-876 2:1597-1615 2:2317-2335
+ @ ./ClientApp/pages/ArrangementPage.jsx
+ @ ./ClientApp/routes.jsx
+ @ ./ClientApp/boot-client.jsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.jsx
+2019-07-18 23:59:35.166 +03:00 [INF] User profile is available. Using 'C:\Users\oskik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-18 23:59:36.875 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-07-18 23:59:36.908 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-07-18 23:59:37.662 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64091/  
+2019-07-18 23:59:37.662 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64091/  0
+2019-07-18 23:59:37.681 +03:00 [INF] Request finished in 22.2215ms 200 
+2019-07-18 23:59:37.727 +03:00 [INF] Executing endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-07-18 23:59:37.744 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Meetings.Controllers.MainController (Meetings).
+2019-07-18 23:59:37.756 +03:00 [INF] Executing action method Meetings.Controllers.MainController.Index (Meetings) - Validation state: "Valid"
+2019-07-18 23:59:37.767 +03:00 [INF] Executed action method Meetings.Controllers.MainController.Index (Meetings), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.432ms.
+2019-07-18 23:59:37.791 +03:00 [INF] Executing ViewResult, running view Index.
+2019-07-18 23:59:38.309 +03:00 [INF] Executed action Meetings.Controllers.MainController.Index (Meetings) in 560.9573ms
+2019-07-18 23:59:38.312 +03:00 [INF] Executed endpoint 'Meetings.Controllers.MainController.Index (Meetings)'
+2019-07-18 23:59:38.355 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: Prerendering failed because of error: Error: Cannot find module '@Services/ArrangementService'
+    at webpackMissingModule (webpack-internal:///./ClientApp/store/ArrangementStore.js:10:45)
+    at eval (webpack-internal:///./ClientApp/store/ArrangementStore.js:10:148)
+    at Object../ClientApp/store/ArrangementStore.js (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:435:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at eval (webpack-internal:///./ClientApp/pages/ArrangementPage.jsx:25:82)
+    at Object../ClientApp/pages/ArrangementPage.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:331:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+    at eval (webpack-internal:///./ClientApp/routes.jsx:12:80)
+    at Object../ClientApp/routes.jsx (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:383:1)
+    at __webpack_require__ (C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js:20:30)
+Current directory is: C:\Projects\Meetings\Meetings
+
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at AspNetCore.Views_Main_Index.ExecuteAsync() in C:\Projects\Meetings\Meetings\Views\Main\Index.cshtml:line 7
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-18 23:59:38.388 +03:00 [INF] Request finished in 728.7885ms 500 text/html; charset=utf-8
+2019-07-18 23:59:40.760 +03:00 [INF] Node will restart because file changed: C:\Projects\Meetings\Meetings\ClientApp\dist\main-server.js
+2019-07-18 23:59:41.663 +03:00 [INF] webpack built 6a3fce0c4d764ea4166c in 4544ms
+2019-07-18 23:59:41.682 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Hash: 6a3fce0c4d764ea4166c
+Version: webpack 4.32.2
+Time: 4544ms
+Built at: 2019-07-18 11:59:41 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  3.77 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-07-18 23:59:41.685 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Compiled successfully.
